@@ -1,55 +1,61 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Qual animal você seria?",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "Qual é o seu ambiente preferido?",
+      "options": [
+        {"id": 1, "name": "Floresta", "alias": "A"},
+        {"id": 2, "name": "Oceano", "alias": "B"},
+        {"id": 3, "name": "Deserto", "alias": "C"},
+        {"id": 4, "name": "Montanha", "alias": "D"}
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "O que você prefere comer?",
+      "options": [
+        {"id": 1, "name": "Carnes", "alias": "A"},
+        {"id": 2, "name": "Peixes", "alias": "B"},
+        {"id": 3, "name": "Plantas", "alias": "C"},
+        {"id": 4, "name": "Frutas", "alias": "D"}
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "Como você prefere passar seu tempo?",
+      "options": [
+        {"id": 1, "name": "Explorando", "alias": "A"},
+        {"id": 2, "name": "Nadando", "alias": "B"},
+        {"id": 3, "name": "Descansando", "alias": "C"},
+        {"id": 4, "name": "Escalando", "alias": "D"}
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "Qual é a sua abordagem em relação aos desafios?",
+      "options": [
+        {"id": 1, "name": "Confronto direto", "alias": "A"},
+        {"id": 2, "name": "Manobras estratégicas", "alias": "B"},
+        {"id": 3, "name": "Adaptação flexível", "alias": "C"},
+        {"id": 4, "name": "Evitar conflitos", "alias": "D"}
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Qual dessas características mais se aproxima de você?",
+      "options": [
+        {"id": 1, "name": "Coragem", "alias": "A"},
+        {"id": 2, "name": "Inteligência", "alias": "B"},
+        {"id": 3, "name": "Resiliência", "alias": "C"},
+        {"id": 4, "name": "Paz interior", "alias": "D"}
       ]
     }
   ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  "results": {
+    "A": "Você seria um leão, o rei da selva!",
+    "B": "Você seria um golfinho, inteligente e ágil!",
+    "C": "Você seria um camaleão, adaptável e flexível!",
+    "D": "Você seria uma águia, com visão aguçada e foco!"
   }
 }
